@@ -1,7 +1,9 @@
 export default function Main() {
   return (
     <>
-      <main>Sono il body</main>
+      <div className="bg-dark py-5">
+        <h1 className="text-light">Content goes here</h1>
+      </div>
     </>
   );
 }
