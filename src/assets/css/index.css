@@ -5,3 +5,7 @@
 .no-grow {
   flex-grow: 0 !important;
 }
+
+.prefooter img {
+  height: 75px;
+}
