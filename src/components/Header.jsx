@@ -3,51 +3,61 @@ export default function Header() {
     {
       url: '/',
       text: 'CHARACTERS',
+      active: false,
     },
 
     {
       url: '/comics',
       text: 'COMICS',
+      active: true,
     },
 
     {
       url: '/movies',
       text: 'MOVIES',
+      active: false,
     },
 
     {
       url: '/tv',
       text: 'TV',
+      active: false,
     },
 
     {
       url: '/games',
       text: 'GAMES',
+      active: false,
     },
 
     {
       url: '/collectibles',
       text: 'COLLECTIBLES',
+      active: false,
     },
 
     {
       url: '/videos',
       text: 'VIDEOS',
+      active: false,
     },
 
     {
       url: '/fans',
       text: 'FANS',
+      active: false,
     },
 
     {
       url: '/news',
       text: 'NEWS',
+      active: false,
     },
 
     {
       url: '/shop',
       text: 'SHOP',
+      active: false,
     },
   ];
 
@@ -71,7 +81,10 @@ export default function Header() {
           <ul className="navbar-nav nav-underlined">
             {navElements.map((element, index) => {
               return (
-                <li key={index} className="nav-item">
+                <li
+                  key={index}
+                  className={`nav-item ${element.active ? 'active' : ''}`}
+                >
                   <a className="nav-link fw-medium" href={element.url}>
                     {element.text}
                   </a>
