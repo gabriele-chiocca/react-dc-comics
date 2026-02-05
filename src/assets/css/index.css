@@ -19,6 +19,7 @@
 }
 
 .nav-underlined .nav-item.active::after {
+  /* Content altrimenti l'after non viene "eseguito" */
   content: '';
   position: absolute;
   left: 0;
