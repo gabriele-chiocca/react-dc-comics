@@ -11,7 +11,7 @@ export default function Footer() {
                   <ul className="list-unstyled mb-0">
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Chi siamo
@@ -19,7 +19,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light    text-white-50   link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Lavora con noi
@@ -27,7 +27,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light   text-white-50   link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Contatti
@@ -39,7 +39,7 @@ export default function Footer() {
                   <ul className="list-unstyled mb-0">
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50   link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Chi siamo
@@ -47,7 +47,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Lavora con noi
@@ -55,7 +55,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Contatti
@@ -69,7 +69,7 @@ export default function Footer() {
                   <ul className="list-unstyled mb-0">
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Terms of Use
@@ -77,7 +77,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Privacy policy (New)
@@ -85,7 +85,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Ad Choices
@@ -93,7 +93,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Advertising
@@ -101,7 +101,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Jobs
@@ -109,7 +109,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Subscription
@@ -117,7 +117,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Talent Workshops
@@ -125,7 +125,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         CPSC Certificates
@@ -133,7 +133,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Ratings
@@ -141,7 +141,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Shop Help
@@ -149,7 +149,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         Contact Us
@@ -164,7 +164,7 @@ export default function Footer() {
                   <ul className="list-unstyled mb-0">
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         DC
@@ -172,7 +172,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         MAD Magazine
@@ -180,7 +180,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         DC Kids
@@ -192,7 +192,7 @@ export default function Footer() {
                   <ul className="list-unstyled mb-0">
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         DC Universe
@@ -200,7 +200,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="link-light link-underline-opacity-0 link-underline-opacity-75-hover"
+                        className="link-light  text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
                         href="#"
                       >
                         DC Power Visa
