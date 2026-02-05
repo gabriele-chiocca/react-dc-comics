@@ -187,7 +187,7 @@ export default function Main() {
       </div>
       <div className="bg-dark py-4">
         <div className="container relative">
-          <span className="bg-primary text-light p-3 h4 absolute">
+          <span className="bg-primary text-light p-3 h5 absolute">
             CURRENT SERIES
           </span>
 
