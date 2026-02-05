@@ -58,7 +58,7 @@ export default function Footer() {
               <div className="row g-3">
                 {footerMenus.map((menu, index) => (
                   <div key={index} className="col-6 col-sm-4">
-                    <h5 className="text-uppercase mb-2">{menu.title}</h5>
+                    <h5 className="text-uppercase h4 mb-2">{menu.title}</h5>
                     <ul className="list-unstyled mb-0">
                       {menu.links.map((link, index) => {
                         return (
@@ -73,7 +73,9 @@ export default function Footer() {
                         );
                       })}
                     </ul>
-                    <h5 className="text-uppercase mt-5">{menu.secondtitle}</h5>
+                    <h5 className="text-uppercase h4 mt-5">
+                      {menu.secondtitle}
+                    </h5>
 
                     <ul className="list-unstyled mb-0">
                       {menu.secondlinks.map((link, index) => {
