@@ -9,27 +9,27 @@ export default function PreFooter() {
           </span>
         </div>
         <div className="d-flex">
-          <img src="public\img\buy-comics-digital-comics.png" alt="Logo" />
+          <img src="public\img\buy-comics-merchandise.png" alt="Logo" />
           <span className="text-light align-self-center ms-4 ">
-            DIGITAL COMICS
+            DC MERCHANDISE
           </span>
         </div>
         <div className="d-flex">
-          <img src="public\img\buy-comics-digital-comics.png" alt="Logo" />
+          <img src="public\img\buy-comics-subscriptions.png" alt="Logo" />
           <span className="text-light align-self-center ms-4 ">
-            DIGITAL COMICS
+            SUBSCRIPTION
           </span>
         </div>
         <div className="d-flex">
-          <img src="public\img\buy-comics-digital-comics.png" alt="Logo" />
+          <img src="public\img\buy-comics-shop-locator.png" alt="Logo" />
           <span className="text-light align-self-center ms-4 ">
-            DIGITAL COMICS
+            COMIC SHOP LOCATOR
           </span>
         </div>
         <div className="d-flex">
-          <img src="public\img\buy-comics-digital-comics.png" alt="Logo" />
+          <img src="public\img\buy-dc-power-visa.svg" alt="Logo" />
           <span className="text-light align-self-center ms-4 ">
-            DIGITAL COMICS
+            DC POWER VISA
           </span>
         </div>
       </div>
