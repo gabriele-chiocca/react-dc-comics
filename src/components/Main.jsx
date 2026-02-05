@@ -178,6 +178,13 @@ export default function Main() {
 
   return (
     <>
+      <div>
+        <img
+          className="jumbotron-size"
+          src="public\img\jumbotron.jpg"
+          alt="Jumbotron"
+        />
+      </div>
       <div className="bg-dark">
         <div className="container">
           <div className="row">
