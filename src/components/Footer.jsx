@@ -1,4 +1,54 @@
 export default function Footer() {
+  const footerMenus = [
+    {
+      title: 'Menu',
+      links: [
+        { text: 'Characters' },
+        { text: 'Comics' },
+        { text: 'Movies' },
+        { text: 'TV' },
+        { text: 'Games' },
+        { text: 'Videos' },
+        { text: 'News' },
+      ],
+      secondtitle: 'SHOP',
+
+      secondlinks: [{ text: 'Shop DC' }, { text: 'Shop DC Collectibles' }],
+    },
+    {
+      title: 'DC',
+      links: [
+        { text: 'Terms Of Use' },
+        { text: 'Privacy Policy(New)' },
+        { text: 'Ad Choices' },
+        { text: 'Advertising' },
+        { text: 'Jobs' },
+        { text: 'Subscription' },
+        { text: 'Talent Workshop' },
+        { text: 'CPSC Certificates' },
+        { text: 'Ratings' },
+        { text: 'Shop Help' },
+        { text: 'Contact Us' },
+      ],
+      secondtitle: '',
+
+      secondlinks: [{ text: '' }, { text: '' }],
+    },
+
+    {
+      title: 'SITES',
+      links: [
+        { text: 'DC' },
+        { text: 'MAD Magazine' },
+        { text: 'DC Kids' },
+        { text: 'DC Universe' },
+        { text: 'DC Power Visa' },
+      ],
+      secondtitle: '',
+
+      secondlinks: [{ text: '' }, { text: '' }],
+    },
+  ];
   return (
     <>
       <footer className="bg-footer text-light mt-auto">
@@ -6,64 +56,46 @@ export default function Footer() {
           <div className="row align-items-center g-4">
             <div className="col-12 col-md-8">
               <div className="row g-3">
-                <div className="col-6 col-sm-4">
-                  <h5 className="text-uppercase mb-2">DC COMICS</h5>
-                  <ul className="list-unstyled mb-0">
-                    <li>
-                      <a
-                        className="link-light text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
-                        href="#"
-                      >
-                        Chi siamo
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="link-light    text-white-50   link-underline-opacity-0 link-underline-opacity-75-hover"
-                        href="#"
-                      >
-                        Lavora con noi
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="link-light   text-white-50   link-underline-opacity-0 link-underline-opacity-75-hover"
-                        href="#"
-                      >
-                        Contatti
-                      </a>
-                    </li>
-                  </ul>
+                {footerMenus.map((menu, index) => (
+                  <div key={index} className="col-6 col-sm-4">
+                    <h5 className="text-uppercase mb-2">{menu.title}</h5>
+                    <ul className="list-unstyled mb-0">
+                      {menu.links.map((link, index) => {
+                        return (
+                          <li key={index}>
+                            <a
+                              className="link-light text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
+                              href="#"
+                            >
+                              {link.text}
+                            </a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                    <h5 className="text-uppercase mt-5">{menu.secondtitle}</h5>
 
-                  <h5 className="text-uppercase mb-2 mt-3">SHOP</h5>
-                  <ul className="list-unstyled mb-0">
-                    <li>
-                      <a
-                        className="link-light  text-white-50   link-underline-opacity-0 link-underline-opacity-75-hover"
-                        href="#"
-                      >
-                        Chi siamo
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="link-light  text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
-                        href="#"
-                      >
-                        Lavora con noi
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="link-light  text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
-                        href="#"
-                      >
-                        Contatti
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                    <ul className="list-unstyled mb-0">
+                      {menu.secondlinks.map((link, index) => {
+                        return (
+                          <li key={index}>
+                            <a
+                              className="link-light text-white-50 link-underline-opacity-0 link-underline-opacity-75-hover"
+                              href="#"
+                            >
+                              {link.text}
+                            </a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                ))}
+                {/*
 
+                */}
+
+                {/*
                 <div className="col-6 col-sm-4">
                   <h5 className="text-uppercase">DC</h5>
                   <ul className="list-unstyled mb-0">
@@ -158,7 +190,10 @@ export default function Footer() {
                   </ul>
                 </div>
 
-                {/* Terzo Li */}
+                */}
+
+                {/*
+                Terzo Li
                 <div className="col-6 col-sm-4">
                   <h5 className="text-uppercase">SITES</h5>
                   <ul className="list-unstyled mb-0">
@@ -204,6 +239,7 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
+                */}
               </div>
             </div>
 
