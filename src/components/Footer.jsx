@@ -186,10 +186,6 @@ export default function Footer() {
                         DC Kids
                       </a>
                     </li>
-                  </ul>
-
-                  <h5 className="text-uppercase mb-2 mt-3">SHOP</h5>
-                  <ul className="list-unstyled mb-0">
                     <li>
                       <a
                         className="link-light text-white-50  link-underline-opacity-0 link-underline-opacity-75-hover"
