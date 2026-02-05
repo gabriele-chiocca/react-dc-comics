@@ -178,15 +178,19 @@ export default function Main() {
 
   return (
     <>
-      <div>
+      <div className="">
         <img
           className="jumbotron-size"
           src="public\img\jumbotron.jpg"
           alt="Jumbotron"
         />
       </div>
-      <div className="bg-dark">
-        <div className="container">
+      <div className="bg-dark py-4">
+        <div className="container relative">
+          <span className="bg-primary text-light p-3 h4 absolute">
+            CURRENT SERIES
+          </span>
+
           <div className="row">
             {comics.map((comic) => {
               return (
@@ -208,7 +212,7 @@ export default function Main() {
             })}
           </div>
         </div>
-        <div className="text-center pb-5">
+        <div className="text-center pb-4">
           <button className="btn btn-primary">LOAD MORE</button>
         </div>
       </div>

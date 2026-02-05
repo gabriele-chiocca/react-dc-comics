@@ -36,3 +36,13 @@
 
   object-position: center 0%;
 }
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  left: 0px;
+  top: -50px;
+}
