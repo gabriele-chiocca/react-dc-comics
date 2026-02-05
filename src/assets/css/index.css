@@ -9,3 +9,7 @@
 .prefooter img {
   height: 75px;
 }
+
+.bg-footer {
+  background-image: url('../../../public/img/footer-bg.jpg');
+}
