@@ -91,57 +91,6 @@ export default function Header() {
                 </li>
               );
             })}
-            {/*
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                CHARACTERS
-              </a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link fw-medium" href="#">
-                COMICS
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                MOVIES
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                TV
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                GAMES
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                COLLECTIBLES
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                VIDEOS
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                FANS
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                NEWS
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-medium" href="#">
-                SHOP
-              </a>
-            </li>*/}
           </ul>
         </div>
       </nav>
