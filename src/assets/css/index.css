@@ -13,3 +13,18 @@
 .bg-footer {
   background-image: url('../../../public/img/footer-bg.jpg');
 }
+
+.img-wrapper {
+  height: 250px;
+  overflow: hidden;
+}
+
+.comic-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.align-title-comics {
+  padding-top: 16px;
+}
