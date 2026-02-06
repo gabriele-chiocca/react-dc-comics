@@ -1,3 +1,5 @@
+import Jumbotron from './jumbotron';
+
 export default function Main() {
   const comics = [
     {
@@ -178,13 +180,7 @@ export default function Main() {
 
   return (
     <>
-      <div className="">
-        <img
-          className="jumbotron-size"
-          src="public\img\jumbotron.jpg"
-          alt="Jumbotron"
-        />
-      </div>
+      <Jumbotron></Jumbotron>
       <div className="bg-dark py-4">
         <div className="container relative">
           <span className="bg-primary text-light p-3 h5 absolute">
