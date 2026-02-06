@@ -2,7 +2,7 @@ import Jumbotron from './jumbotron';
 import ComicsCard from './product/ComicsCard.jsx';
 
 export default function Main() {
-  const comics = [
+  const comicsActual = [
     {
       id: 1,
       title: 'Action Comics  The Deluxe Edition',
@@ -182,7 +182,7 @@ export default function Main() {
   return (
     <>
       <Jumbotron></Jumbotron>
-      <ComicsCard></ComicsCard>
+      <ComicsCard comics={comicsActual} />
     </>
   );
 }
