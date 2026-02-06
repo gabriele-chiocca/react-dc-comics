@@ -1,3 +1,4 @@
+/* Navbar */
 .align {
   justify-content: space-around !important;
 }
@@ -30,14 +31,17 @@
   bottom: -2.1rem;
 }
 
+/* PREFOOTER BLUE BANNER */
 .prefooter img {
   height: 50px;
 }
 
+/* Footer */
 .bg-footer {
   background-image: url('../../../public/img/footer-bg.jpg');
 }
 
+/* Comics Product Section */
 .img-wrapper {
   height: 250px;
   overflow: hidden;
@@ -53,6 +57,27 @@
   padding-top: 16px;
 }
 
+/* JUMBOTRON AND BUTTON POSITION */
+
+.jumbotron-size {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+
+  object-position: center 0%;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  left: 0px;
+  top: -50px;
+}
+
+/* MEDIA QUERY */
 @media (max-width: 1100px) {
   .flex-container {
     padding: 16px;
@@ -72,22 +97,4 @@
   .flex-item {
     margin-top: 16px;
   }
-}
-
-.jumbotron-size {
-  width: 100%;
-  max-height: 600px;
-  object-fit: cover;
-
-  object-position: center 0%;
-}
-
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-  left: 0px;
-  top: -50px;
 }
